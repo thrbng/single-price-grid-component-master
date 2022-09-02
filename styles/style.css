@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: hsl(204, 43%, 93%);
+    padding: 100px 370px;
+}
+
+.up {
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px ;
+    padding-right: 60px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.join {
+    color: hsl(179, 62%, 43%);
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.par-join {
+    color: hsl(71, 73%, 54%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.discrip-join {
+    color: hsl(218, 22%, 67%);
+    font-size: 14.5px;
+    margin-top: 10px;
+}
+
+/* ---------------------------------------------------------------------------- */
+.down {
+    display: flex;
+}
+
+.left {
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 40px;
+    border-end-start-radius: 8px;
+}
+
+.monthly {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.price span {
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-left: 10px;
+}
+
+.discrip-month {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.button {
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.right {
+    background-color: hsl(179, 62%, 60%);
+    width: 50%;
+    padding: 40px;
+    padding-right: 60px;
+    border-end-end-radius: 8px;
+}
+
+.why {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.discip-why {
+    margin-top: 15px;
+}
+.discip-why p {
+    font-size: 14.5px;
+    color: hsla(0, 0%, 100%, 0.6);
+    padding-right: 25px;
+}
+
+.left , .right {
+    color: hsl(0, 0%, 100%);
+}
+
+/* foter ----------------------------------------------------------------------- */
+footer {
+    background-color: #aaa;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
